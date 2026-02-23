@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AddProductForm from '@/components/AddProductForm.vue';
-import InventoryTable from './components/InventoryTable.vue';
+import InventoryTable from '@/components/InventoryTable.vue';
+import ActivityLog from '@/components/ActivityLog.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import InventoryTable from './components/InventoryTable.vue';
 
     <AddProductForm />
     <InventoryTable />
+    <ActivityLog />
     </div>
   </main>
 </template>
